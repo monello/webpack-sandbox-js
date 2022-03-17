@@ -52,3 +52,16 @@ This doesn't get pushed to the repo, but my aliases are:
    The `-y` flag means "_Yes, set up the `package.json` with default values and don't ask all the set-up questions_"
 
 `npm init -y`
+
+
+## Commit History Navigation
+At the bottom of most commits you will find notes about the code changes made during that commit. I only did this for commits with code changes that progress from the previous commit, so any commits to the README.md don't have notes or navigation.
+I manually added page-navigation to the commits that show progress in the form of code-changes as applied by following the course.
+
+Some commits deal with key learning points, these I will try to list below in the "Key Commits" section.
+
+## Key Commits
+
+Comment | Description | Commit Shortcut
+| :--- | :--- | :---:
+Initial Commit  | Listed here to be able to get to the first commit that starts the pagnation | [:octocat:](https://github.com/monello/webpack-sandbox-js/commit/2856d98af41ebbd2f4ad01a0410c58e60cfd3193)
