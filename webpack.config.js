@@ -5,10 +5,10 @@ module.exports = {
     mode: "development",
     entry: {
         index: './src/index.js',
-        print: './src/print.js'
+        another: './src/another-module.js',
     },
     output: {
-        filename: '[name].bundle.js',
+        filename: '[name].bundle.js',           // if this config was not here yet, you'd have to add it too
         path: path.resolve(__dirname, 'dist'),
         clean: true
     },
