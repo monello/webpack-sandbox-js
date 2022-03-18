@@ -19,7 +19,7 @@ document.body.appendChild(component());
 const app = () => {
     const appTarget = document.getElementById('app');
     const element = document.createElement('p');
-    element.innerText = 'App injected here';
+    element.innerText = 'App injected here - Foobar!!!';
     appTarget.appendChild(element);
 }
 
