@@ -11,8 +11,16 @@ function component() {
     btn.onclick = printMe;
 
     element.appendChild(btn)
-
     return element;
 }
 
 document.body.appendChild(component());
+
+const app = () => {
+    const appTarget = document.getElementById('app');
+    const element = document.createElement('p');
+    element.innerText = 'App injected here';
+    appTarget.appendChild(element);
+}
+
+app();
