@@ -12,7 +12,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Output Management',
+            title: 'Output Management', // Setting the title tag of the html file
+            filename: 'admin.html'      // Setting the filename of the html file, now you'll have to specify "admin.html" in the URL (defaults to index.html)
         }),
     ],
 };
